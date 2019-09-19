@@ -4,6 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        System.out.println("Symbol");
+        String file = "Test_Files/test3.dat";
+        SymbolTable st = new SymbolTable();
+        st.parse(file);
     }
+
+
+
+
+
 }
